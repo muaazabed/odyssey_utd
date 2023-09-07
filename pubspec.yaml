@@ -1,0 +1,27 @@
+name: odyssey_utd
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  color: "#363636"
+  image: "assets/odessey_utd.png"
+  android_12:
+    color: "#363636"
+    image: "assets/odessey_utd.png"
+
+flutter:
+  uses-material-design: true
